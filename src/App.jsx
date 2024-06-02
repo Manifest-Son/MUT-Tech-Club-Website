@@ -2,7 +2,7 @@ import Header from "./components/header/Header";
 import "./assets/global.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import Leadership from "./pages/Leadership/Leadership";
+import Leader from "./pages/Leadership/Leaders";
 import Tracts from "./pages/Tracts/Tracts";
 import Event from "./pages/Event/Event";
 import Footer from "./components/Footer/Footer";
@@ -14,7 +14,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/leadership" element={<Leadership />} />
+          <Route path="/leadership" element={<Leader />} />
           <Route path="/tracts" element={<Tracts />} />
           <Route path="/event" element={<Event />} />
         </Routes>

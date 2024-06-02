@@ -1,0 +1,22 @@
+import "./Leadership.css";
+import Leadership from "./Leadership";
+import React from "react";
+import Leaders from "../../data/Leaders";
+
+<React.Fragment>
+      <section className="doctors-section">
+        {Leaders.map((leader, i) => (
+          <Leadership
+            key={i}
+            picture={leader.Leaders.image}
+            twitter={leader.Leaders.twitterUrl}
+            facebook={leader.Leaders.fbUrl}
+            linkedIn={leader.Leaders.lnUrl}
+            instagram={leader.Leaders.igUrl}
+            name={leader.Leaders.fullName}
+            position={leader.Leaders.field}
+            description={leader.Leaders.biography}
+          />
+        ))}
+      </section>
+</React.Fragment>

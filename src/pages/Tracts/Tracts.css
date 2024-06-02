@@ -1,0 +1,19 @@
+.tracts-container{
+    border: 2px solid green;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 2rem;
+}
+
+.track-header{
+    text-align: center;
+    color: red;
+}
+.track-section{
+    border:2px solid blue;
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+.track-img{
+    width: 20rem;
+}
