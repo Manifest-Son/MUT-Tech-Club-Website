@@ -1,0 +1,81 @@
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+    url("src/assets/image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  display: grid;
+  align-content: end;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.hero-header {
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  padding-top: 1rem;
+  color: var(--primary-color);
+}
+.hero-subtitle {
+  font-size: 2.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  color: #91c788;
+}
+.hero-cta-section {
+  padding-bottom: 2rem;
+}
+.hero-cta {
+  padding: 2rem;
+  border: 1px;
+  border-radius: 10px;
+  background-color: #91c788;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.about {
+  background: var(--primary-color);
+}
+.about-text {
+  padding: 2rem;
+}
+.about-text-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 2rem;
+}
+.miss-vis-ob {
+  padding: 2rem;
+}
+.header-text {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+.testify-header {
+  padding-top: 1.5rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.testify-section {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.testimonial-holder {
+  border: 3px solid var(--primary-color);
+  border-radius: 15px;
+  padding: 1.5rem;
+}
+.testimony-img {
+  border-radius: 50%;
+  width: 20rem;
+}
